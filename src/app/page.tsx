@@ -21,7 +21,7 @@ const PLATFORMS = [
     name: "Bayraktar TB2",
     role: "Military UAS Operator",
     hours: "250+ flight hours",
-    image: "/images/tb2-nose-duo.jpg",
+    image: "/images/tb2-tail-duo.jpg",
     points: [
       "Conducted operational UAS missions in support of military ISR and security operations",
       "Participated in establishing Bayraktar TB2 RPAS capability, including Ground Control Station farm setup and platform assembly",
@@ -31,7 +31,7 @@ const PLATFORMS = [
   },
   {
     name: "CW-40D RPA",
-    role: "UAS Operator / Instructor",
+    role: "CW-40D and Apprentice RPA UAS Operator and Instructor",
     hours: "230+ flight hours",
     image: "/images/uas-assembly-1.jpg",
     points: [
@@ -56,7 +56,7 @@ const PLATFORMS = [
     name: "DA-40",
     role: "Manned Aircraft: Ab-Initio / Instrument Training",
     hours: "20+ flight hours",
-    image: "/images/da40-standing.jpg",
+    image: "/images/tb2-nose-duo.jpg",
     points: [
       "Completed in-house manned-aircraft flight training",
       "Conducted instrument-flying training as part of military aviation development",
@@ -155,13 +155,13 @@ const CERTIFICATIONS = [
 ];
 
 const GALLERY = [
-  { src: "/images/tb2-nose-duo.jpg", alt: "Standing beneath the nose of a Bayraktar TB2 RPAS with a fellow operator" },
+  { src: "/images/tb2-nose-duo.jpg", alt: "Standing beneath the nose of a DA-40 training aircraft with a fellow operator" },
   { src: "/images/gcs-operator.jpg", alt: "Operating the Ground Control Station, dual monitors, joystick and mission map" },
   { src: "/images/tb2-instructor-brief.jpg", alt: "Briefing a group of operators beside a UAS platform and power equipment" },
   { src: "/images/da40-cockpit.jpg", alt: "Seated in the DA-40 cockpit reviewing checklists before instrument training" },
   { src: "/images/uas-assembly-1.jpg", alt: "Assembling a fixed-wing UAS airframe with a fellow operator" },
   { src: "/images/uas-assembly-2.jpg", alt: "Close-up preparation of a small fixed-wing UAS payload bay" },
-  { src: "/images/tb2-tail-duo.jpg", alt: "Standing beside the tail assembly of a Bayraktar TB2 with a fellow operator" },
+  { src: "/images/tb2-tail-duo.jpg", alt: "Standing beneath the wings of a Bayraktar TB2 RPAS with a fellow operator" },
   { src: "/images/da40-lean.jpg", alt: "Portrait beside a DA-40 manned training aircraft on the apron" },
 ];
 
@@ -541,10 +541,10 @@ export default function Home() {
                 Emmanuelofujejames@gmail.com
               </a>
               <a
-                href="tel:+2348035098186"
+                href="tel:+2348035098185"
                 className="rounded-full border border-white/25 px-6 py-3 font-semibold text-white transition hover:bg-white/10"
               >
-                +234 803 509 8186
+                +234 803 509 8185
               </a>
             </div>
             <p className="mt-6 text-sm text-white/50">Based in Nigeria &middot; Open to relocation to Canada</p>
