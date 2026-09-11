@@ -241,7 +241,7 @@ export default function Home() {
                 alt="Captain Emmanuel Ofuje James in Nigerian Air Force uniform"
                 fill
                 priority
-                className="object-cover"
+                className="object-cover object-top"
                 sizes="(min-width: 768px) 384px, 90vw"
               />
             </div>
