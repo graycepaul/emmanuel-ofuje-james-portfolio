@@ -48,7 +48,7 @@ const PLATFORMS = [
     name: "DA-40",
     role: "Manned Aircraft: Ab-Initio / Instrument Training",
     hours: "20+ flight hours",
-    image: "/images/tb2-nose-duo.jpg",
+    image: "/images/da40-cockpit.jpg",
     points: [
       "Completed in-house manned-aircraft flight training",
       "Conducted instrument-flying training as part of military aviation development",
@@ -184,7 +184,7 @@ export default function Home() {
                 across Bayraktar TB2, CW-40D, CH-4B and DA-40 platforms, with a strong background in
                 flight operations, ISR missions, mission planning, flight safety, operational risk
                 management, crew resource management and operator training. Open to relocation to
-                Canada and extensive travel.
+                Europe and North America and extensive travel.
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <a
@@ -502,8 +502,8 @@ export default function Home() {
               Ready to bring military-grade UAS discipline to your team
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-white/70">
-              Open to relocation to Canada and extensive travel. Available to discuss UAS
-              operations, training and instructional roles at any time.
+              Open to relocation to Europe and North America and extensive travel. Available to
+              discuss UAS operations, training and instructional roles at any time.
             </p>
             <div className="mt-8 flex flex-wrap items-center justify-center gap-4 text-sm">
               <a
@@ -519,7 +519,7 @@ export default function Home() {
                 +234 803 509 8185
               </a>
             </div>
-            <p className="mt-6 text-sm text-white/50">Based in Nigeria &middot; Open to relocation to Canada</p>
+            <p className="mt-6 text-sm text-white/50">Based in Nigeria &middot; Open to relocation to Europe and North America</p>
           </div>
         </section>
       </main>
