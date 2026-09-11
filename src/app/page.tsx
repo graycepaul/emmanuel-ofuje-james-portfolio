@@ -1,13 +1,5 @@
 import Image from "next/image";
-
-const NAV_LINKS = [
-  { href: "#about", label: "About" },
-  { href: "#experience", label: "Flight Experience" },
-  { href: "#training", label: "Training" },
-  { href: "#skills", label: "Skills" },
-  { href: "#gallery", label: "Gallery" },
-  { href: "#contact", label: "Contact" },
-];
+import SiteHeader from "@/components/SiteHeader";
 
 const STATS = [
   { value: "500+", label: "Total Flight Hours" },
@@ -168,27 +160,7 @@ const GALLERY = [
 export default function Home() {
   return (
     <>
-      {/* NAV */}
-      <header className="sticky top-0 z-50 border-b border-panel-border/70 bg-background/90 backdrop-blur">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-          <a href="#top" className="font-display text-lg font-semibold tracking-wide">
-            EMMANUEL <span className="text-accent">OFUJE JAMES</span>
-          </a>
-          <nav className="hidden gap-8 text-sm font-medium text-muted md:flex">
-            {NAV_LINKS.map((link) => (
-              <a key={link.href} href={link.href} className="transition hover:text-foreground">
-                {link.label}
-              </a>
-            ))}
-          </nav>
-          <a
-            href="#contact"
-            className="rounded-full bg-navy px-4 py-2 text-sm font-medium text-white transition hover:bg-navy-2"
-          >
-            Get in Touch
-          </a>
-        </div>
-      </header>
+      <SiteHeader />
 
       <main id="top" className="flex-1">
         {/* HERO */}
