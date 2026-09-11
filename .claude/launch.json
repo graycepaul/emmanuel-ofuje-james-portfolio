@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "portfolio",
+      "runtimeExecutable": "/bin/bash",
+      "runtimeArgs": ["-c", "cd '/Users/mac/Documents/Emmanuel Ofuje/portfolio' && npm run dev"],
+      "port": 3000
+    }
+  ]
+}

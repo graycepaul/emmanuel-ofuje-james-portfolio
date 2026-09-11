@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Emmanuel Ofuje James — Portfolio
 
-## Getting Started
+A static Next.js portfolio site built to support Emmanuel Ofuje James's application for the
+[UAS Operations & Training Specialist – Defence](https://draganfly.applytojobs.ca/uas+programs/48358)
+role at Draganfly Inc.
 
-First, run the development server:
+No backend — the site is fully static (`next build` with `output: "export"`) and ready to deploy
+on Vercel as a static site.
+
+## Content
+
+- `src/app/page.tsx` — all page content (hero, about, flight experience, military appointments,
+  skills, education/certifications, gallery, contact). Edit the arrays at the top of the file to
+  update text.
+- `public/images/` — photos used across the site.
+- `public/files/` — downloadable CV and cover letter (`.docx`).
+
+## Local development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build (static export)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+Static output is generated in the `out/` directory.
 
-To learn more about Next.js, take a look at the following resources:
+## Deploy to Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Push this `portfolio` folder to a Git repository (GitHub/GitLab/Bitbucket).
+2. In Vercel, click **Add New Project**, import the repository, and select the `portfolio`
+   folder as the root directory if it's part of a larger repo.
+3. Vercel auto-detects Next.js — no extra configuration is needed. `output: "export"` in
+   `next.config.ts` makes the build fully static.
+4. Deploy. Every push to the main branch redeploys automatically.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Alternatively, deploy directly from the CLI:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm install -g vercel
+vercel
+```
