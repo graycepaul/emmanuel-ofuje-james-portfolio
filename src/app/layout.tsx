@@ -16,7 +16,7 @@ const oswald = Oswald({
 export const metadata: Metadata = {
   title: "Emmanuel Ofuje James | UAS Operations & Training Specialist",
   description:
-    "Captain Emmanuel Ofuje James — Military UAS/RPAS operator and instructor with 500+ flight hours across Bayraktar TB2, CW-40D, CH-4B and DA-40 platforms. Portfolio for UAS Operations & Training Specialist – Defence, Draganfly Inc.",
+    "Captain Emmanuel Ofuje James, Military UAS/RPAS operator and instructor with 500+ flight hours across Bayraktar TB2, CW-40D, CH-4B and DA-40 platforms. Portfolio for UAS operations, training and defence-technology roles.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

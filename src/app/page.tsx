@@ -24,7 +24,7 @@ const PLATFORMS = [
     image: "/images/tb2-nose-duo.jpg",
     points: [
       "Conducted operational UAS missions in support of military ISR and security operations",
-      "Participated in establishment of Bayraktar TB2 RPAS capability — Ground Control Station farm setup and platform assembly",
+      "Participated in establishing Bayraktar TB2 RPAS capability, including Ground Control Station farm setup and platform assembly",
       "Mission planning, crew coordination and operational execution in demanding environments",
       "Supported surveillance and reconnaissance missions applying aviation safety and risk-management principles",
     ],
@@ -54,7 +54,7 @@ const PLATFORMS = [
   },
   {
     name: "DA-40",
-    role: "Manned Aircraft — Ab-Initio / Instrument Training",
+    role: "Manned Aircraft: Ab-Initio / Instrument Training",
     hours: "20+ flight hours",
     image: "/images/da40-standing.jpg",
     points: [
@@ -90,7 +90,7 @@ const COMPETENCIES = [
 
 const APPOINTMENTS = [
   {
-    title: "Staff Officer Grade 2 — Safety and Evaluation",
+    title: "Staff Officer Grade 2, Safety and Evaluation",
     body: "Supported aviation safety, evaluation and operational standards; contributed to risk identification, mitigation and continuous improvement.",
   },
   {
@@ -123,11 +123,11 @@ const SAFETY = [
 
 const EDUCATION = [
   {
-    title: "B.Eng. — Electrical/Electronics Engineering",
+    title: "B.Eng., Electrical/Electronics Engineering",
     body: "Bachelor of Engineering, completed.",
   },
   {
-    title: "M.Sc. — Information & Communications Technology",
+    title: "M.Sc., Information & Communications Technology",
     body: "In progress.",
   },
   {
@@ -143,7 +143,7 @@ const CERTIFICATIONS = [
     status: "Held",
   },
   {
-    title: "Transport Canada RPAS Pilot Certificate — Advanced Operations",
+    title: "Transport Canada RPAS Pilot Certificate, Advanced Operations",
     body: "Prepared to undertake applicable Canadian certification requirements upon relocation.",
     status: "In progress",
   },
@@ -156,7 +156,7 @@ const CERTIFICATIONS = [
 
 const GALLERY = [
   { src: "/images/tb2-nose-duo.jpg", alt: "Standing beneath the nose of a Bayraktar TB2 RPAS with a fellow operator" },
-  { src: "/images/gcs-operator.jpg", alt: "Operating the Ground Control Station — dual monitors, joystick and mission map" },
+  { src: "/images/gcs-operator.jpg", alt: "Operating the Ground Control Station, dual monitors, joystick and mission map" },
   { src: "/images/tb2-instructor-brief.jpg", alt: "Briefing a group of operators beside a UAS platform and power equipment" },
   { src: "/images/da40-cockpit.jpg", alt: "Seated in the DA-40 cockpit reviewing checklists before instrument training" },
   { src: "/images/uas-assembly-1.jpg", alt: "Assembling a fixed-wing UAS airframe with a fellow operator" },
@@ -198,7 +198,7 @@ export default function Home() {
           <div className="relative mx-auto grid max-w-6xl gap-12 px-6 py-20 md:grid-cols-[1.1fr_0.9fr] md:items-center md:py-28">
             <div>
               <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-xs font-medium uppercase tracking-widest text-accent-2">
-                Portfolio &middot; UAS Operations &amp; Training Specialist — Defence, Draganfly Inc.
+                Portfolio &middot; UAS/RPAS Operator, Instructor &amp; Training Specialist
               </p>
               <h1 className="font-display text-4xl font-semibold leading-tight text-balance sm:text-5xl">
                 Captain Emmanuel Ofuje James
@@ -209,7 +209,7 @@ export default function Home() {
               <p className="mt-6 max-w-xl text-white/75">
                 Military UAS/RPAS operator and instructor with over 500 hours of total flight
                 experience and 8 years of military aviation and operational experience. Experienced
-                across Bayraktar TB2, CW-40D, CH-4B and DA-40 platforms — with a strong background in
+                across Bayraktar TB2, CW-40D, CH-4B and DA-40 platforms, with a strong background in
                 flight operations, ISR missions, mission planning, flight safety, operational risk
                 management, crew resource management and operator training. Open to relocation to
                 Canada and extensive travel.
@@ -268,14 +268,14 @@ export default function Home() {
             <div>
               <p className="text-xs font-semibold uppercase tracking-widest text-accent">About</p>
               <h2 className="mt-2 font-display text-3xl font-semibold text-balance">
-                Defence-trained UAS operator ready to serve as Draganfly&apos;s frontline technical
-                ambassador
+                Defence-trained UAS operator ready to serve as a frontline technical ambassador
+                for UAS programs
               </h2>
               <p className="mt-4 text-muted">
                 Eight years of structured military aviation service have built a foundation in
                 disciplined mission execution, operational safety, and clear communication under
-                pressure — the same qualities Draganfly&apos;s customers need when adopting a new UAS
-                platform in the field.
+                pressure. These are the same qualities customers and organizations need when
+                adopting a new UAS platform in the field.
               </p>
             </div>
             <div className="grid gap-6 sm:grid-cols-2">
@@ -292,7 +292,7 @@ export default function Home() {
                 <h3 className="font-display text-lg font-semibold">Training &amp; Instruction</h3>
                 <p className="mt-2 text-sm text-muted">
                   Trained and mentored 20+ UAS students from ground school through flight-phase
-                  completion — translating technical and operational concepts into practical
+                  completion, translating technical and operational concepts into practical
                   instruction, supervising flight activities, evaluating performance and reinforcing
                   standard operating procedures.
                 </p>
@@ -364,7 +364,7 @@ export default function Home() {
             Military Aviation &amp; UAS Experience
           </p>
           <h2 className="mt-2 font-display text-3xl font-semibold">
-            Captain — Military Aviation / UAS Operations
+            Captain, Military Aviation / UAS Operations
           </h2>
           <p className="mt-2 text-sm text-muted">8 years of military service &middot; selected military appointments</p>
 
@@ -527,11 +527,11 @@ export default function Home() {
           <div className="relative mx-auto max-w-4xl px-6 text-center">
             <p className="text-xs font-semibold uppercase tracking-widest text-accent-2">Contact</p>
             <h2 className="mt-2 font-display text-3xl font-semibold sm:text-4xl">
-              Ready to bring military-grade UAS discipline to Draganfly&apos;s customers
+              Ready to bring military-grade UAS discipline to your team
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-white/70">
-              Open to relocation to Canada and extensive travel. Available to discuss the UAS
-              Operations &amp; Training Specialist – Defence role at any time.
+              Open to relocation to Canada and extensive travel. Available to discuss UAS
+              operations, training and instructional roles at any time.
             </p>
             <div className="mt-8 flex flex-wrap items-center justify-center gap-4 text-sm">
               <a
@@ -555,7 +555,7 @@ export default function Home() {
       <footer className="border-t border-panel-border bg-background py-8">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 text-sm text-muted sm:flex-row">
           <p>&copy; {new Date().getFullYear()} Emmanuel Ofuje James. All rights reserved.</p>
-          <p>Portfolio built for the Draganfly Inc. UAS Operations &amp; Training Specialist – Defence application.</p>
+          <p>Portfolio for UAS/RPAS operations, training and defence-technology roles.</p>
         </div>
       </footer>
     </>
